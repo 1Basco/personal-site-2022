@@ -1,57 +1,134 @@
-export const projects = [
-  {
-    title: "MERN Memories",
-    description:
-      "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-    image: "/images/1.png",
-    tags: ["Mongo", "Express", "React", "Node"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 0,
-  },
-  {
-    title: "E-Commerce",
-    description:
-      "While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
-    image: "/images/2.png",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 1,
-  },
-  {
-    title: "WebRTC App",
-    description:
-      "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-    image: "/images/3.jpg",
-    tags: ["React", "WebRTC"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Unichat",
-    description:
-      "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-    image: "/images/4.jpg",
-    tags: ["React", "ChatEngine", "Firebase"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
-  },
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
-];
-
 export const commons = {
   github_url: "https://github.com/1Basco",
   linkedin_url: "https://www.linkedin.com/in/lsos13/",
   twitter_url: "https://twitter.com/1Bascow",
   instagram_url: "https://www.instagram.com/salomasilva/",
 };
+
+export const Tabs = [
+  {
+    name: "Home",
+    href: "/",
+  },
+  {
+    name: "Stacks & Skills",
+    href: "#tech",
+  },
+  {
+    name: "Blog",
+    href: "#blog",
+  },
+  {
+    name: "Sobre",
+    href: "#about",
+  },
+  {
+    name: "Contato",
+    href: "#contact",
+  },
+];
+export const stacks = [
+  {
+    title: "Next.js",
+    description:
+      "Next.js is a framework for server-rendered React applications. It is a minimalistic framework that allows you to build single-page applications with the same experience as in a regular React application.",
+    proeficiency: "Beginner",
+    id: 0,
+  },
+  {
+    title: "JavaScript",
+    description:
+      "JavaScript is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
+    proeficiency: "Intermediate",
+    id: 1,
+  },
+  {
+    title: "PHP",
+    description:
+      "PHP is a server-side scripting language designed primarily for web development but also used as a general-purpose programming language. PHP is now installed on more than 200 million websites and 2.1 million web servers.",
+    proeficiency: "Intermediate",
+    id: 2,
+  },
+  {
+    title: "React Native",
+    description:
+      "React Native is a framework for building native apps using React. It lets you code in JavaScript for mobile devices without using a separate development platform.",
+    proeficiency: "Beginner",
+    id: 3,
+  },
+];
+
+export const FrontTech = [
+  {
+    name: "HTML",
+    knowledge: "Intermediate",
+    id: 0,
+  },
+  {
+    name: "CSS",
+    knowledge: "Intermediate",
+    id: 1,
+  },
+  {
+    name: "JavaScript",
+    knowledge: "Intermediate",
+    id: 2,
+  },
+  {
+    name: "React",
+    knowledge: "Intermediate",
+    id: 3,
+  },
+  {
+    name: "React Native",
+    knowledge: "Beginner",
+    id: 4,
+  },
+];
+
+export const BackTech = [
+  // php, laravel, express, node, mongodb, mysql, postgresql
+  {
+    name: "PHP",
+    knowledge: "Intermediate",
+    id: 0,
+  },
+  {
+    name: "Laravel",
+    knowledge: "Beginner",
+    id: 1,
+  },
+  {
+    name: "Express",
+    knowledge: "Beginner",
+    id: 2,
+  },
+  {
+    name: "Node",
+    knowledge: "Beginner",
+    id: 3,
+  },
+  {
+    name: "MongoDB",
+    knowledge: "Beginner",
+    id: 4,
+  },
+  {
+    name: "MySQL",
+    knowledge: "Intermediate",
+    id: 5,
+  },
+  {
+    name: "PostgreSQL",
+    knowledge: "Beginner",
+    id: 6,
+  },
+];
+
+export const TimeLineData = [
+  { year: 2015, text: "First interaction with the programming world" },
+  { year: 2017, text: "Tried a few courses on Front-End Development" },
+  { year: 2019, text: "Started my College" },
+  { year: 2021, text: "Got my first job as Developer" },
+  { year: 2022, text: "Started to learn more to be a better developer" },
+];

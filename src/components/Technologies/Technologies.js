@@ -1,12 +1,58 @@
-import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import React from "react";
+import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { BackTech, FrontTech } from "../../constants/constants";
+import {
+  Section,
+  SectionDivider,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import {
+  List,
+  ListContainer,
+  ListItem,
+  ListParagraph,
+  ListTitle,
+} from "./TechnologiesStyles";
 
-const Technologies = () =>  (
-  <div>
-    Technologies
-  </div>
+const Technologies = () => (
+  <Section>
+    <SectionText>
+      I have work with the following technologies on each stack:
+    </SectionText>
+    <List>
+      <ListItem>
+        <DiFirebase size={32} />
+        <ListTitle>Front-End</ListTitle>
+        <ListParagraph>
+          Experience with <br />
+          {FrontTech.map((tech) => (
+            <div>
+              <span>
+                {tech.name}: {tech.knowledge}
+              </span>
+              <br />
+            </div>
+          ))}
+        </ListParagraph>
+      </ListItem>
+      <ListItem>
+        <DiFirebase size={32} />
+        <ListTitle>Back-End</ListTitle>
+        <ListParagraph>
+          Experience with <br />
+          {BackTech.map((tech) => (
+            <div>
+              <span>
+                {tech.name}: {tech.knowledge}
+              </span>
+              <br />
+            </div>
+          ))}
+        </ListParagraph>
+      </ListItem>
+    </List>
+  </Section>
 );
 
 export default Technologies;

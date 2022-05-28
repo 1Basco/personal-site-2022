@@ -7,7 +7,7 @@ import {
   AiFillTwitterSquare,
 } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
-import { commons } from "../../constants/constants";
+import { commons, Tabs } from "../../constants/constants";
 
 import {
   Container,
@@ -18,29 +18,6 @@ import {
   SocialIcons,
   Span,
 } from "./HeaderStyles";
-
-const Tabs = [
-  {
-    name: "Home",
-    href: "/",
-  },
-  {
-    name: "Stacks & Skills",
-    href: "#tech",
-  },
-  {
-    name: "Blog",
-    href: "#blog",
-  },
-  {
-    name: "Sobre",
-    href: "#about",
-  },
-  {
-    name: "Contato",
-    href: "#contact",
-  },
-];
 
 const Header = () => (
   <Container>
