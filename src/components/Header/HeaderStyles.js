@@ -51,6 +51,14 @@ export const Div3 = styled.div`
     grid-area: 1 / 4 / 2 / 6;
   }
 `;
+export const Img = styled.img`
+  max-width: 48px;
+  max-height: 48px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  overflow: hidden;
+`;
 
 // Navigation Links
 export const NavLink = styled.a`

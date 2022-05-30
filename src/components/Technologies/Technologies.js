@@ -27,17 +27,15 @@ const Technologies = () => (
         <ListParagraph>
           Experience with <br />
           {FrontTech.map((tech) => (
-            <div>
-              <span>
-                {tech.name}: {tech.knowledge}
-              </span>
+            <>
+              {tech.name}: {tech.knowledge}
               <br />
-            </div>
+            </>
           ))}
         </ListParagraph>
       </ListItem>
       <ListItem>
-        <DiFirebase size={32} />
+        <DiFirebase size={28} />
         <ListTitle>Back-End</ListTitle>
         <ListParagraph>
           Experience with <br />

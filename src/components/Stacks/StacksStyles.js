@@ -23,7 +23,9 @@ export const GridContainer = styled.section`
 `;
 export const BlogCard = styled.div`
   border-radius: 10px;
+  background-color: ${(props) => props.theme.colors.white};
   box-shadow: 3px 3px 20px rgba(108, 54, 114, 0.5);
+  background: ${(props) => props.theme.colors.background2};
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {

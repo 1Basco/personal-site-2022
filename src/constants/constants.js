@@ -16,7 +16,7 @@ export const Tabs = [
   },
   {
     name: "Blog",
-    href: "#blog",
+    href: "/blog",
   },
   {
     name: "Sobre",

@@ -14,6 +14,7 @@ import {
   Div1,
   Div2,
   Div3,
+  Img,
   NavLink,
   SocialIcons,
   Span,
@@ -24,7 +25,8 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiCssdeck size={32} /> <Span>Salomão</Span>
+          <Img src="https://avatars.githubusercontent.com/u/52391122?v=4" />{" "}
+          <Span>Salomão</Span>
         </a>
       </Link>
     </Div1>
