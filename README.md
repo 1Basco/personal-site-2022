@@ -4,5 +4,10 @@
 
 ## ToDo:
 
-[] Finish mobile view
-[] Finish Blog
+- [ ] Finish mobile view
+- [ ] Create integration with github API for Blog posts
+- [ ] Finish Blog
+
+---
+
+_Project Based on the [youtube video](https://www.youtube.com/watch?v=OPaLnMw2i_0) by [Adrian Hajdin](https://github.com/adrianhajdin)_

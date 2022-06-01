@@ -1,5 +1,11 @@
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillTwitterSquare,
+} from "react-icons/ai";
+import { commons } from "../../constants/constants";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -32,8 +38,22 @@ const Footer = () => {
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
-        <CompanyContainer>Don't mind me. I'm just trying</CompanyContainer>
+        <CompanyContainer>
+          <Slogan>Don't mind me. I'm just trying</Slogan>
+        </CompanyContainer>
       </SocialIconsContainer>
+      <SocialIcons href={commons.github_url} target="_blank">
+        <AiFillGithub size={18} />
+      </SocialIcons>
+      <SocialIcons href={commons.instagram_url} target="_blank">
+        <AiFillInstagram size={18} />
+      </SocialIcons>
+      <SocialIcons href={commons.linkedin_url} target="_blank">
+        <AiFillLinkedin size={18} />
+      </SocialIcons>
+      <SocialIcons href={commons.twitter_url} target="_blank">
+        <AiFillTwitterSquare size={18} />
+      </SocialIcons>
     </FooterWrapper>
   );
 };
