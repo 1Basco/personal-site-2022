@@ -4,7 +4,7 @@
       "value": "#0F1624"
     }
   },
-  "fullScreen": { "enable": true, "zIndex": -1 },
+  "fullScreen": { "enable": false, "zIndex": -1 },
   "fpsLimit": 120,
   "interactivity": {
     "events": {
@@ -30,10 +30,10 @@
   },
   "particles": {
     "color": {
-      "value": "#d3afaf80"
+      "value": "#6c3672"
     },
     "links": {
-      "color": "#d3afaf80",
+      "color": "#6c3672",
       "distance": 115,
       "enable": true,
       "opacity": 0.5,

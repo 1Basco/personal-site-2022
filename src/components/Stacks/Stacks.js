@@ -8,6 +8,7 @@ import {
   Hr,
   TitleContent,
   Img,
+  ParticleAreaWrapper,
 } from "./StacksStyles";
 import {
   Section,
@@ -15,11 +16,15 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { stacks } from "../../constants/constants";
+import ParticleArea from "../ParticlesArea/ParticlesArea";
 
 const Stacks = () => (
   <Section nopadding id="tech">
     <SectionDivider />
     <SectionTitle>Stacks & Skills</SectionTitle>
+    <ParticleAreaWrapper>
+      <ParticleArea />
+    </ParticleAreaWrapper>
     <GridContainer>
       {stacks.map(
         ({ id, image, title, description, source, proeficiency, visit }) => (

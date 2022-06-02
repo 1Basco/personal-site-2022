@@ -34,6 +34,11 @@ const GlobalStyles = createGlobalStyle`
   .memes {
     z-index: 3 !important;
   }
+  #tsparticles{
+        z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
 
 `;
 
