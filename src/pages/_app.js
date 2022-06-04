@@ -6,7 +6,7 @@ export default function App({ Component, pageProps }) {
   return (
     <div className="memes">
       <Theme>
-        <ParticleArea />
+        {/* <ParticleArea /> */}
         <Component {...pageProps} />
       </Theme>
     </div>

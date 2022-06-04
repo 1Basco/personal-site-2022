@@ -7,6 +7,7 @@ import {
   SectionText,
   SectionTitle,
 } from "../../styles/GlobalComponents";
+import ParticleArea from "../ParticlesArea/ParticlesArea";
 import {
   List,
   ListContainer,
