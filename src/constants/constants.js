@@ -19,11 +19,11 @@ export const Tabs = [
   //   href: "/blog",
   // },
   {
-    name: "Sobre",
+    name: "About me",
     href: "#about",
   },
   {
-    name: "Contato",
+    name: "Contact me",
     href: "#contact",
   },
 ];
