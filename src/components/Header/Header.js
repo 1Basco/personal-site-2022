@@ -6,7 +6,6 @@ import {
   AiFillLinkedin,
   AiFillTwitterSquare,
 } from "react-icons/ai";
-import { DiCssdeck } from "react-icons/di";
 import { commons, Tabs } from "../../constants/constants";
 
 import {

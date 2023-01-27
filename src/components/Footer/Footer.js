@@ -27,14 +27,24 @@ const Footer = () => {
     <FooterWrapper id="contact">
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href={`https://api.whatsapp.com/send?phone=${number}`}>
-            {`+${number}`}
-          </LinkItem>
+          {number && (
+            <>
+              <LinkTitle>Call</LinkTitle>
+              <LinkItem href={`https://api.whatsapp.com/send?phone=${number}`}>
+                {`+${number}`}
+              </LinkItem>
+            </>
+          )}
         </LinkColumn>
         <LinkColumn>
-          <LinkTitle>E-mail</LinkTitle>
-          <LinkItem href={`mailto:${email}`}>{`Contact: ${email}`}</LinkItem>
+          {email && (
+            <>
+              <LinkTitle>E-mail</LinkTitle>
+              <LinkItem
+                href={`mailto:${email}`}
+              >{`Contact: ${email}`}</LinkItem>
+            </>
+          )}
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

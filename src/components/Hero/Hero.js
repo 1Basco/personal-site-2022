@@ -6,7 +6,6 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import ParticleArea from "../ParticlesArea/ParticlesArea";
 import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
@@ -18,7 +17,7 @@ const Hero = (props) => (
       <SectionText>
         I'm here to learn and sometimes show dumb ideias heheXD.
       </SectionText>
-      <Button onClick={() => (window.location = "/blog")}>Check my Blog</Button>
+      {/* <Button onClick={() => (window.location = "/blog")}>Check my Blog</Button> */}
     </LeftSection>
   </Section>
 );

@@ -14,10 +14,10 @@ export const Tabs = [
     name: "Stacks & Skills",
     href: "#tech",
   },
-  {
-    name: "Blog",
-    href: "/blog",
-  },
+  // {
+  //   name: "Blog",
+  //   href: "/blog",
+  // },
   {
     name: "Sobre",
     href: "#about",
@@ -39,7 +39,7 @@ export const stacks = [
     title: "JavaScript",
     description:
       "JavaScript is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
-    proeficiency: "Intermediate",
+    proeficiency: "Advanced",
     id: 1,
   },
   {
@@ -53,8 +53,22 @@ export const stacks = [
     title: "React Native",
     description:
       "React Native is a framework for building native apps using React. It lets you code in JavaScript for mobile devices without using a separate development platform.",
-    proeficiency: "Beginner",
+    proeficiency: "Intermediate",
     id: 3,
+  },
+  {
+    title: "Laravel",
+    description:
+      "Laravel is a free and open-source PHP web framework designed for web application development. It follows the Model-View-Controller (MVC) architectural pattern and is known for its elegant syntax and tools for tasks such as routing, authentication, and caching. It also includes built-in support for integration with other popular tools and libraries such as Eloquent ORM, Queues, and more.",
+    proeficiency: "Intermediate",
+    id: 4,
+  },
+  {
+    title: "Elixir (Phoenix Framework)",
+    description:
+      "Phoenix Framework is a free and open-source web development framework written in the Elixir programming language. It is built on top of the Erlang virtual machine (BEAM) and is optimized for low-latency, high-concurrency web applications. Phoenix follows the Model-View-Controller (MVC) pattern and provides features such as channels for WebSockets communication, a built-in web server, and a built-in ORM called Ecto.",
+    proeficiency: "Beginner",
+    id: 5,
   },
 ];
 
@@ -71,7 +85,7 @@ export const FrontTech = [
   },
   {
     name: "JavaScript",
-    knowledge: "Intermediate",
+    knowledge: "Advanced",
     id: 2,
   },
   {
@@ -81,13 +95,17 @@ export const FrontTech = [
   },
   {
     name: "React Native",
-    knowledge: "Beginner",
+    knowledge: "Intermediate",
     id: 4,
+  },
+  {
+    name: "Phoenix",
+    knowledge: "Beginner",
+    id: 5,
   },
 ];
 
 export const BackTech = [
-  // php, laravel, express, node, mongodb, mysql, postgresql
   {
     name: "PHP",
     knowledge: "Intermediate",
@@ -95,33 +113,38 @@ export const BackTech = [
   },
   {
     name: "Laravel",
-    knowledge: "Beginner",
+    knowledge: "Intermediate",
     id: 1,
   },
   {
     name: "Express",
-    knowledge: "Beginner",
+    knowledge: "Intermediate",
     id: 2,
   },
   {
-    name: "Node",
+    name: "Elixir",
     knowledge: "Beginner",
     id: 3,
   },
   {
+    name: "Node",
+    knowledge: "Intermediate",
+    id: 4,
+  },
+  {
     name: "MongoDB",
     knowledge: "Beginner",
-    id: 4,
+    id: 5,
   },
   {
     name: "MySQL",
     knowledge: "Intermediate",
-    id: 5,
+    id: 6,
   },
   {
     name: "PostgreSQL",
     knowledge: "Beginner",
-    id: 6,
+    id: 7,
   },
 ];
 
@@ -131,4 +154,8 @@ export const TimeLineData = [
   { year: 2019, text: "Started my College" },
   { year: 2021, text: "Got my first job as Developer" },
   { year: 2022, text: "Started to learn more to be a better developer" },
+  {
+    year: 2023,
+    text: "Trying to get my hands dirty and learning a lot of new stacks and skills",
+  },
 ];
